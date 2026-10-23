@@ -1,0 +1,8 @@
+{
+  "name": "spec",
+  "description": "The spec plugin, served from its own repository.",
+  "owner": { "name": "thatcher-s" },
+  "plugins": [
+    { "name": "spec", "source": ".", "description": "Spec-driven design in phases, one fresh session per phase." }
+  ]
+}

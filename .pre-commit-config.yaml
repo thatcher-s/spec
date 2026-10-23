@@ -1,0 +1,5 @@
+repos:
+  - repo: https://github.com/thatcher-s/release-fragments
+    rev: v0.3.0
+    hooks:
+      - id: release-check

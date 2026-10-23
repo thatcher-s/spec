@@ -1,0 +1,7 @@
+{
+  "name": "spec",
+  "description": "Spec-driven design in phases: requirements, design, optional validation, tasks, implementation and PR review, one fresh session per phase, with threaded feedback.",
+  "author": { "name": "thatcher-s" },
+  "repository": "https://github.com/thatcher-s/spec",
+  "license": "MIT"
+}

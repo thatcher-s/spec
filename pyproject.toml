@@ -1,0 +1,19 @@
+# Not a Python package: this file only carries the release version and the
+# release-fragments settings (https://github.com/thatcher-s/release-fragments).
+
+[project]
+name = "spec"
+version = "0.1.0"
+description = "Claude Code plugin for spec-driven design, one phase per session"
+
+[tool.release-fragments]
+lock-command = []
+major-version-zero = true
+shipping-paths = [
+    "skills/",
+    "shared/",
+    "templates/",
+    ".claude-plugin/",
+    ".github/workflows/",
+    "pyproject.toml",
+]

@@ -1,0 +1,21 @@
+name: Auto release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "changelog/next/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  release:
+    name: Release
+    permissions:
+      contents: write
+    uses: thatcher-s/release-fragments/.github/workflows/release.yml@v0.3.0
+    with:
+      tool-spec: "git+https://github.com/thatcher-s/release-fragments@v0.3.0"
+    secrets: inherit
